@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap CSS -->      
+    <link rel="stylesheet" href="css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- Header -->
+      <header id="header-container">
+        <div class="container">
+          <!-- flex-items-xs-between -->
+          <!-- flex-items-xs-around -->
+          <!-- flex-items-xs-left  o right-->
+          <div class="row flex-items-xs-middle flex-items-xs-between">
+            <!-- INVERTIR ORDENAMIENTO 
+            <div class="col-md-5 push-md-5 push-lg-0 columna">
+              Hola
+            </div>
+            <div class="col-md-5 pull-md-5 pull-lg-0 columna">
+              Mundo
+            </div>
+             -->
+             <div class="col-xs-3 ">
+              <h1>PlatziShop</h1>
+            </div>
+            <!-- flex-xs-bottom login abajo -->
+            <div class="col-xs-3 text-xs-right">
+              <button class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="#navMenu">
+                &#9776;
+              </button>
+              <a class="login hidden-xs-down text-uppercase font-weight-bold" href="">Login</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- /Header -->
+    <!-- Menu -->
+    <div id="menu-container">
+      <nav id="navMenu" class="navbar-toggleable-xs navbar navbar-light collapse">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0">
+              <ul class="nav navbar-nav">
+                <li class="nav-item text-xs-center active">
+                  <a href="" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a href="catalogo.html" class="nav-link">Catálogo</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a href="" class="nav-link">Carrito</a>
+                </li>
+                <li class="nav-item text-xs-center hidden-sm-up">
+                  <a href="" class="nav-link">Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 offset-md-2 hidden-xs-down">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Encontró lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>  
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+      </nav>
+      <div id="search-bar" class="container hidden-sm-up">
+        <div class="row">
+          <div class="col-xs">
+            <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Encontró lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>  
+                    </button>
+                  </span>
+                </div>
+              </form>
+          </div>    
+        </div> 
+      </div>
+    </div>
+    <!-- /Menu -->
+    <!-- Carousel -->
+    <div id="carousel-container">
+      <div id="productosCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#productosCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#productosCarousel" data-slide-to="1"></li>
+            <li data-target="#productosCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ce5a389c7%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ce5a389c7%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277.0078125%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Ejemplo 1</h3>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ce5a389c7%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ce5a389c7%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277.0078125%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Ejemplo 2</h3>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ce5a389c7%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ce5a389c7%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277.0078125%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Ejemplo 3</h3>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#productosCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Producto Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#productosCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Producto Siguiente</span>
+          </a>
+      </div>
+    </div>
+    <!-- /carousel -->
+    <!-- info -->
+    <div id="info-container">
+      <div class="container">
+        <div class="row text-xs-center">
+          <div class="col-xs-12 col-md-4">
+            <!-- img-fluid se adapta al ancho de la colume -->
+            <img src="img/icon-medalla.png" height="117" width="180" alt="Calidad" class="img-fluid">
+            <h4>Calidad</h4>  
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img src="img/icon-personajes.png" height="117" width="180" alt="Calidad" class="img-fluid">
+            <h4>Envio Gratis</h4>  
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img src="img/icon-reloj.png" height="117" width="180" alt="Calidad" class="img-fluid">
+            <h4>Soporte 24 horas</h4>  
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- / info -->
+    <!-- Footer -->
+    <footer id="footer-container">
+      <div class="container">
+          <div class="row text-xs-center text-sm-left">
+            <div class="col-md-4">
+              <form id="suscribeForm" action="#" method="POST">
+                <h4 class="text-uppercase">¿Quiés recibir todas las novedades?</h4>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="tu@correo.com" name="email">
+                  <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con nadie más</small>
+                </div>
+                <button type="submit" class="btn btn-primary form-text">Suscribirme</button>
+              </form>
+            </div>
+            <div class="col-md-3 offset-md-5">
+              <h4 class="navigation">Navegación</h4>
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>  
+    <!-- /Footer -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD"crossorigin="anonymous"></script>
+    <script src="js/app.js">
+    
+
+    </script>
+  </body>
+</html>
+
+
