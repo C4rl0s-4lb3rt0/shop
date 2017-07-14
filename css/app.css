@@ -5,7 +5,7 @@ body{
 #header-container,
 #info-container {
 
-	background-color: #99c84a;
+	background-color: #560764;
 	color: white;
 }
 
@@ -25,7 +25,7 @@ body{
 	background-color: #f7f7f9;
 }
 .btn.btn-platzi{
-	background-color: #99c84a;
+	background-color: #560764;
 	color:white;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 input.form-control:focus{
-	border-color:#99c84a;
+	border-color:#560764;
 }
 
 #search-bar{
@@ -57,7 +57,7 @@ input.form-control:focus{
 }
 
 #footer-container{
-	background-color: #1c3643;
+	background-color: #BB8FA9;
 	color: white;
 	padding: 3em 0;
 }
@@ -77,4 +77,57 @@ input.form-control:focus{
 	}
 }
 
+#breadcrumbs-container .breadcrumb{
+	background-color: white;
+	padding-left: 0;
 
+}
+
+#productos-container{
+	margin-bottom: 2em;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item{
+	color:#1c3643;
+}
+
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active{
+	color:#95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+	content: '>';
+}
+
+#filtros-container .list-group-item-action.active{
+	background-color: #560764;
+	border-color: #560764;
+}
+
+#filtros-container .list-group+.list-group{
+	margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+	/*#productos-container .filtros-toggle{
+		margin-bottom: 1em
+	}*/
+	.listado-productos{
+		margin-top: 2em;
+	}
+	.listado-productos .card-img-top{
+		width: 100%;
+	}
+
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+	color: #560764;
+}
+
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+	background-color: #560764;
+	border-color: #560764;
+	color:white;
+}
